@@ -13,8 +13,26 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontSize: {
+        'vw-sm': '2vw',
+        'vw-md': '4vw',
+        'vw-lg': '6vw',
+      },
+      maxWidth: {
+        'vw-md': '50vw',
+      },
+      minWidth: {
+        'vw-sm': '20vw',
+        'vw-md': '60vw',
+      },
+      width: {
+        'vw-pic': '20vw',
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["winter"],
+  },
 }
 export default config
