@@ -12,8 +12,8 @@ export default function Home() {
         <header className="w-full h-[80vh] bg-[url('/images/greenBG.jpg')] bg-contain bg-center bg-fixed flex flex-col justify-center items-center z-0">
           {/* Transparent Navigational Tabs */}
           <nav className="fixed top-0 right-0 w-full p-5 pr-7 z-50"> 
-            <ul className="flex justify-end space-x-6 text-white text-vw-sm font-alfaSlab font-thin">
-              <li><Link href="/about" className="">About Me</Link></li>
+            <ul className="flex justify-end space-x-6 text-white text-vw-sm font-DM font-bold tracking-normal">
+              <li><Link href="/about" className="hover:text-gray-500">About Me</Link></li>
               <li><Link href="/projects" className="hover:text-gray-500">Projects</Link></li>
               <li><Link href="/resume" className="hover:text-gray-500">Resume</Link></li>
             </ul>

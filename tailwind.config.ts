@@ -14,7 +14,7 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        alfaSlab: ['Alfa Slab One', 'serif'],
+        DM: ['DM Serif Display', 'serif'],
       },
       fontSize: {
         'vw-sm': '2vw',
