@@ -13,6 +13,9 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        alfaSlab: ['Alfa Slab One', 'serif'],
+      },
       fontSize: {
         'vw-sm': '2vw',
         'vw-md': '4vw',
@@ -32,7 +35,7 @@ const config: Config = {
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["winter"],
+    themes: false,
   },
 }
 export default config

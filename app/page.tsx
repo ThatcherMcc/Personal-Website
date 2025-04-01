@@ -12,10 +12,10 @@ export default function Home() {
         <header className="w-full h-[80vh] bg-[url('/images/greenBG.jpg')] bg-contain bg-center bg-fixed flex flex-col justify-center items-center z-0">
           {/* Transparent Navigational Tabs */}
           <nav className="fixed top-0 right-0 w-full p-5 pr-7 z-50"> 
-            <ul className="flex justify-end space-x-6 text-red-600 font-bold text-vw-sm font-[lato]">
-              <li><Link href="/about" className="hover:text-gray-400">About Me</Link></li>
-              <li><Link href="/projects" className="hover:text-gray-400">Projects</Link></li>
-              <li><Link href="/resume" className="hover:text-gray-400">Resume</Link></li>
+            <ul className="flex justify-end space-x-6 text-white text-vw-sm font-alfaSlab font-thin">
+              <li><Link href="/about" className="">About Me</Link></li>
+              <li><Link href="/projects" className="hover:text-gray-500">Projects</Link></li>
+              <li><Link href="/resume" className="hover:text-gray-500">Resume</Link></li>
             </ul>
           </nav>
           
@@ -25,7 +25,7 @@ export default function Home() {
             <Parallax speed={-10}>
               <div className="text-white/90 max-w-vw-md bg-black/60">
                 <h1 className="text-vw-md font-bold">Thatcher McClure</h1>
-                <p className="mt-4 text-lg md:text-xl">
+                <p className="mt-4 text-lg md:text-xl font-alfaSlab">
                   I'm a software developer passionate about building creative digital experiences. Check out my projects below!
                 </p>
               </div>

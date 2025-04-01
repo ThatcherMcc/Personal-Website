@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @plugin "daisyui";
-@import url('https://fonts.google.com/specimen/Lato');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -14,10 +14,6 @@
   }
 }
 
-@theme {
-  --font-lato: "Lato", sans-serif; 
-}
-
 img {
   max-width: 80%;
   height: auto;
@@ -27,7 +23,7 @@ body {
   color: rgb(var(--foreground-rgb));
   padding: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
 }
 
 .float-container {
