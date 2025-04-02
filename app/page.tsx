@@ -52,8 +52,20 @@ export default function Home() {
         {/* Skills Section */}
         <div className="flex flex-col min-h-screen relative items-center bg-bluey z-10">
 
-          <div className="">
-            <h2 className="text-5xl font-semibold pt-72 font-DM text-cloud">Skills</h2>
+          <h2 className="text-vw-md font-semibold pt-32 font-DM text-cloud">Skills</h2>
+
+          <div className="grid grid-flow-col grid-rows-2 justify-end space-x-6">
+            <div className="flex flex-col items-center">
+              <Image
+                src=''
+                width={100}
+                height={100}
+                alt="Python"
+                className='rounded-lg'
+              />
+              <span className='mt-2 text-cloud'>Python</span>
+
+            </div>
           </div>
 
           <ProductCard />
