@@ -13,8 +13,22 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        olive: '#dde5b6',
+        grass: '#adc178',
+        cream: '#f0ead2',
+        bark: '#a98467',
+        chocolate: '#6c584c',
+
+        ocean: '#2f6690',
+        whale: '#3a7ca5',
+        cloud: '#ebf5ee',
+        midnight: '#283044',
+        bluey: '#78a1bb',
+      },
       fontFamily: {
-        DM: ['DM Serif Display', 'serif'],
+        DM: ['DM Sans', 'sans-serif'],
+        Raleway: ['Raleway', 'sans-serif'],
       },
       fontSize: {
         'vw-sm': '2vw',
