@@ -13,6 +13,7 @@ export default function Home() {
           {/* Transparent Navigational Tabs */}
           <nav className="fixed top-0 right-0 w-full p-5 pr-20 z-50"> 
             <ul className="flex justify-end space-x-6 text-cloud text-vw-sm font-DM font-bold tracking-normal">
+              <li><Link href="/" className="hover:text-gray-400">Home</Link></li>
               <li><Link href="/about" className="hover:text-gray-400">About Me</Link></li>
               <li><Link href="/projects" className="hover:text-gray-400">Projects</Link></li>
               <li><Link href="/resume" className="hover:text-gray-400">Resume</Link></li>
@@ -23,7 +24,7 @@ export default function Home() {
           <div className="flex w-full items-center justify-evenly relative">
             {/* Left Side - Name & Bio */}
             <Parallax speed={-25}>
-              <div className="text-white max-w-vw-md">
+              <div className="max-w-vw-md">
 
                 <h1 className="text-vw-md font-bold font-DM text-cloud">Thatcher McClure</h1>
 
@@ -52,19 +53,51 @@ export default function Home() {
         {/* Skills Section */}
         <div className="flex flex-col min-h-screen relative items-center bg-bluey z-10">
 
-          <h2 className="text-vw-md font-semibold pt-32 font-DM text-cloud">Skills</h2>
+          <h2 className="text-vw-md font-semibold pt-36 pb-10 font-DM text-cloud">Skills</h2>
 
-          <div className="grid grid-flow-col grid-rows-2 justify-end space-x-6">
+          <div className="grid grid-flow-col grid-rows-2 justify-end">
             <div className="flex flex-col items-center">
               <Image
-                src=''
+                src='/images/Python.png'
+                width={150}
+                height={150}
+                alt="Python"
+                className='rounded-lg bg-cloud shadow-md hover:shadow-2xl transition-shadow'
+              />
+              <span className='mt-2 text-cloud font-Raleway font-bold'>Python</span>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <Image
+                src='/images/JAVA.png'
                 width={100}
                 height={100}
                 alt="Python"
-                className='rounded-lg'
+                className='rounded-lg bg-cloud'
               />
-              <span className='mt-2 text-cloud'>Python</span>
+              <span className='mt-2 text-cloud font-Raleway font-bold'>Java</span>
+            </div>
 
+            <div className="flex flex-col items-center">
+              <Image
+                src='/images/JAVA.png'
+                width={150}
+                height={150}
+                alt="Python"
+                className='rounded-lg bg-cloud'
+              />
+              <span className='mt-2 text-cloud font-Raleway font-bold'>Java</span>
+            </div>
+
+            <div className="flex flex-col items-center">
+              <Image
+                src='/images/JAVA.png'
+                width={150}
+                height={150}
+                alt="Python"
+                className='rounded-lg bg-cloud'
+              />
+              <span className='mt-2 text-cloud font-Raleway font-bold'>Java</span>
             </div>
           </div>
 
